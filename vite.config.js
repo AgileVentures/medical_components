@@ -8,7 +8,7 @@ export default defineConfig({
       entry: 'src/index.js',
       name: 'Medical Components',
       // the proper extensions will be added
-      fileName: 'medical_components'
+      fileName: 'medical_components_library'
     },
     rollupOptions: {
       // Externalize peer-dependencies

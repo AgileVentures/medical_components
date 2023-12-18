@@ -1,4 +1,4 @@
-name: Node.js Package
+name: Medical UI Components
 
 on:
   release:
