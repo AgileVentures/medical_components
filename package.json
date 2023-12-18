@@ -1,5 +1,5 @@
 {
-  "name": "@tochman/medical_components",
+  "name": "@AgileVentures/medical_components",
   "private": false,
   "version": "0.0.1",
   "type": "module",
@@ -47,6 +47,6 @@
     "vite": "^5.0.8"
   },
   "publishConfig": {
-    "@tochman:registry": "https://npm.pkg.github.com"
+    "@AgileVentures:registry": "https://npm.pkg.github.com"
   }
 }
