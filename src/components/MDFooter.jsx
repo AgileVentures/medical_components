@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Box, Flex } from "@chakra-ui/react";
 import { MDProvider } from "./MDProvider";
 

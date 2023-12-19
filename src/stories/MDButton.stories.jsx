@@ -1,4 +1,3 @@
-import React from 'react';
 import { MDProvider, MDButton } from '../index';
 
 export default {

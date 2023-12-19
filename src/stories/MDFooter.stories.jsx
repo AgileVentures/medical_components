@@ -1,5 +1,3 @@
-// MDFooter.stories.jsx
-import React from "react";
 import { MDFooter } from "../index";
 import companyLogo from "./assets/medical-logo.webp";
 

@@ -1,7 +1,7 @@
 {
   "name": "@AgileVentures/medical_ui_library",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "main": "dist/medical_ui_library.umd.cjs",
   "module": "dist/medical_ui_library.js",
@@ -22,7 +22,8 @@
     "@emotion/styled": "^11.11.0",
     "framer-motion": "^10.16.16",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "string-width": "^7.0.0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.5",
@@ -43,9 +44,13 @@
     "eslint-plugin-storybook": "^0.6.15",
     "prop-types": "^15.8.1",
     "storybook": "^7.6.5",
-    "vite": "^5.0.8"
+    "vite": "^5.0.8",
+    "jackspeak": "2.1.1"
   },
   "publishConfig": {
     "@AgileVentures:registry": "https://npm.pkg.github.com"
+  },
+  "resolutions": {
+    "jackspeak": "2.1.1"
   }
 }
