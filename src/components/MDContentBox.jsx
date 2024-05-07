@@ -2,11 +2,15 @@
 import { Flex, Box } from "@chakra-ui/react";
 import { MDProvider } from "./MDProvider";
 
-const MDContentBox = ({ children }) => {
+const MDContentBox = ({
+  children,
+  backgroundColor = "#edf3f8",
+  boxColor = "white",
+}) => {
   return (
     <MDProvider>
       <Flex
-        bg="#edf3f8"
+        bg={backgroundColor}
         _dark={{
           bg: "#3e3e3e",
         }}
@@ -19,7 +23,7 @@ const MDContentBox = ({ children }) => {
         <Box
           w="full"
           maxW="6xl"
-          bg="white"
+          bg={boxColor}
           _dark={{
             bg: "gray.800",
           }}

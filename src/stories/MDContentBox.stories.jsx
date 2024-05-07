@@ -6,3 +6,5 @@ export default {
 };
 
 export const Default = () => <MDContentBox>Content goes here</MDContentBox>;
+
+export const Colored = () => <MDContentBox backgroundColor='green.100' boxColor = "teal.100">Content goes here</MDContentBox>;
